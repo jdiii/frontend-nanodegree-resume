@@ -32,6 +32,12 @@ var bio = {
     $('#topContacts').append(HTMLgithub.replace('%data%',bio.contacts.github));
     $('#topContacts').append(HTMLlocation.replace('%data%',bio.contacts.location));
 
+    $('#footerContacts').append(HTMLmobile.replace('%data%',bio.contacts.mobile));
+    $('#footerContacts').append(HTMLemail.replace('%data%',bio.contacts.email));
+    $('#footerContacts').append(HTMLtwitter.replace('%data%',bio.contacts.twitter));
+    $('#footerContacts').append(HTMLgithub.replace('%data%',bio.contacts.github));
+    $('#footerContacts').append(HTMLlocation.replace('%data%',bio.contacts.location));
+
   }
 }
 
