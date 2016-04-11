@@ -64,7 +64,7 @@ h2 {
 
 h3 {
   font-style: italic;
-  font-weight:700;
+  font-weight: 700;
   font-size: 20px;
   color: black;
   line-height: 22px;
@@ -81,21 +81,21 @@ h2,
 h3,
 h4,
 h5 {
-  padding:1em 0;
+  padding: 1em 0;
 
 }
 
 
 .date-text {
   font-style: italic;
-  font-weight:300;
+  font-weight: 300;
   color: #999;
-  display:inline-block;
+  display: inline-block;
 }
 
 .location-text {
   font-style: italic;
-  font-weight:300;
+  font-weight: 300;
   color: #999;
   float: right;
 
@@ -145,7 +145,7 @@ a {
 .gray {
   background-color: #f3f3f3;
   padding-bottom: 0;
-  clear:both;
+  clear: both;
 }
 
 .dark-gray {
@@ -168,12 +168,12 @@ a {
 
 #topContacts {
   position: fixed;
-  z-index:100;
-  left:0;
-  bottom:0;
-  background-color:white;
-  width:100%;
-  box-shadow:0px 0px 5px 0px black;
+  z-index: 100;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px black;
 }
 
 .center-content {
@@ -201,7 +201,7 @@ span {
 
 #lets-connect {
   text-align: center;
-  margin-bottom:2em; /*allow additional space for fixed contact block*/
+  margin: 1em 0; /*allow additional space for fixed contact block*/
 }
 
 /* Media queries to handle various device widths */
